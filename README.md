@@ -22,13 +22,13 @@ npm install -s numcode
 **For ES6 or ESNext**
 
 ```javascript
-import { numcode } from 'thinid';
+import { numcode } from 'numcode';
 ```
 
 **For CommonJS**
 
 ```javascript
-const { numcode } = require('thinid');
+const { numcode } = require('numcode');
 ```
 
 ```javascript
