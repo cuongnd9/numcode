@@ -41,7 +41,7 @@ Output should be '1998'
 
 ## API
 
-### `code(length)`
+### `numcode(length)`
 
 **Returns** `string` unique id with length option (length from 4 to 6).
 
