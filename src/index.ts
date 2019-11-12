@@ -3,7 +3,7 @@
  * @param length Length of code
  * length from 4 to 6.
  */
-export function code(length: number = 4): string {
+export function numcode(length: number = 4): string {
   if (length < 4 || length > 6) {
     length = 4;
   }
