@@ -9,9 +9,7 @@ export function numcode(length: number = 4): string {
   }
   let result = '';
   for (let i = 0; i < length; i++) {
-    result += i === 2 
-    ? result.charAt(1)
-    : Math.floor(Math.random() * 10);
+    result += Math.floor(Math.random() * 10);
   }
   return result;
 }
