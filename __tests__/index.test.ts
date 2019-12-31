@@ -14,7 +14,4 @@ test('should create a number numcode', () => {
   expect(numcode(4)).toHaveLength(4);
   expect(numcode(5)).toHaveLength(5);
   expect(numcode(6)).toHaveLength(6);
-
-  const samplenumcode = numcode().toString();
-  expect(samplenumcode.charAt(1)).toBe(samplenumcode.charAt(2))
 });
